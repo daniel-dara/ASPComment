@@ -1,0 +1,5 @@
+[
+	//{ "keys": ["cmd+'"], "command": "asp_comment" },
+	//{ "keys": ["shift+cmd+'"], "command": "asp_uncomment" },
+	{ "keys": ["cmd+'"], "command": "asp_toggle_comment" }
+]

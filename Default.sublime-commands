@@ -1,0 +1,16 @@
+[
+    {
+        "caption": "ASPComment: Comment out current selection in ASP.",
+        "command": "asp_comment_add_comment"
+    },
+
+    {
+        "caption": "ASPComment: Remove ASP comments from current selection.",
+        "command": "asp_comment_remove_comment"
+    },
+
+    {
+        "caption": "ASPComment: Toggle ASP comment on current selection.",
+        "command": "asp_comment_toggle_comment"
+    }
+]
