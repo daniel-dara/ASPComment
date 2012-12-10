@@ -1,5 +1,5 @@
 [
-	//{ "keys": ["cmd+'"], "command": "asp_comment" },
-	//{ "keys": ["shift+cmd+'"], "command": "asp_uncomment" },
-	{ "keys": ["cmd+'"], "command": "asp_toggle_comment" }
+	//{ "keys": ["cmd+'"], "command": "asp_comment_add_comment" },
+	//{ "keys": ["shift+cmd+'"], "command": "asp_comment_remove_comment" },
+	{ "keys": ["cmd+'"], "command": "asp_comment_toggle_comment" }
 ]
