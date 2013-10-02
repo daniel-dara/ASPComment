@@ -12,9 +12,9 @@ ASPComment provides this functionality so that programmers of any language requi
 
 # Commands
 
-The default keymappings can be viewed by selecting Preferences > Package Settings > ASPComment > Key Bindings - Default from the SublimeText toolmenu. Changes to the keyboard shortcuts should be added to the correspondign Key Bindings - User file to override the default mappings rather than erase them.
+The default keymappings can be viewed by selecting <code>Preferences > Package Settings > ASPComment > Key Bindings - Default</code> from the SublimeText toolmenu. Changes to the keyboard shortcuts should be added to the corresponding "Key Bindings - User" file to override the default mappings rather than erase them.
 
-Note: For all commands, if no selection is made, the action is applied to the line the cursor is currently on.
+<b>Note:</b> By default, if no selection is made, any performed action is applied to the line the cursor is currently on.
 
 ## Add Comment
 
@@ -33,3 +33,15 @@ Remove a single quote <code>'</code> from each line in the current selection tha
     asp_comment_toggle_comment
 
 Toggles comments on the current selection. If there is a single uncommented line, then the entire selection is commented. If all lines are commented, the comments are removed. Also note that empty lines are not commented.
+
+# Configuration
+
+ASPComment has two settings which modify its behavior. These settings can be modified by adding them to the file found at <code>Preferences > Package Settings > ASPComment > Settings - User</code> with the desired value.
+
+    allow_double_comments
+  
+When this setting is true and the <code>asp_comment_add_comment</code> action is performed, lines already starting with a single quote will still receive an additional single quote.
+
+    comment_empty_lines
+  
+When this setting is true, empty lines will receive a single quote when <code>asp_comment_add_comment</code> or <code>asp_comment_toggle_comment</code> are performed.
