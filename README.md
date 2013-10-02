@@ -12,6 +12,8 @@ ASPComment provides this functionality so that programmers of any language requi
 
 # Commands
 
+The default keymappings can be viewed by selecting Preferences > Package Settings > ASPComment > Key Bindings - Default from the SublimeText toolmenu. Changes to the keyboard shortcuts should be added to the correspondign Key Bindings - User file to override the default mappings rather than erase them.
+
 Note: For all commands, if no selection is made, the action is applied to the line the cursor is currently on.
 
 ## Add Comment
