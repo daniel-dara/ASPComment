@@ -1,4 +1,5 @@
 {
 	"allow_double_comments" : true,
-	"comment_empty_lines" : false
+	"comment_empty_lines" : false,
+	"comment_after_indent": false
 }
