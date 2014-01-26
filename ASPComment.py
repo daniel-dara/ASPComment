@@ -72,7 +72,7 @@ class AspCommentRemoveCommentCommand(sublime_plugin.TextCommand):
 class AspCommentToggleCommentCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		view = sublime.active_window().active_view()
-		edit = view.begin_edit()
+		#edit = view.begin_edit()
 
 		# loop through each line in the selection
 		for region in view.sel():
@@ -90,4 +90,4 @@ class AspCommentToggleCommentCommand(sublime_plugin.TextCommand):
 							lines)))
 				view.replace(edit, region, newRegion)
 
-		view.end_edit(edit)
+		#view.end_edit(edit)
