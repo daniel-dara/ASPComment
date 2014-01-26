@@ -1,6 +1,6 @@
 # Description
 
-ASPComment is a plugin for SublimeText2 that allows for multi-line commenting with single quotes, a convention used in Classic ASP, VbScript, and Visual Basic. Though SublimeText has a line commenting shortcut built in, it only supports HTML style comments for ASP (HTML) syntax, which do not work for ASP blocks. Furthermore it does not (natively) support VbScript or Visual Basic syntax highlighting and contexts.
+ASPComment is a plugin for Sublime Text that allows for multi-line commenting with single quotes, a convention used in Classic ASP, VbScript, and Visual Basic. Though Sublime Text has a line commenting shortcut built in, it only supports HTML style comments for "ASP (HTML)" syntax and offers no support for VbScript or Visual Basic, which do not work for ASP blocks. Furthermore it does not (natively) support VbScript or Visual Basic syntax highlighting and contexts.
 
 ASPComment provides this functionality so that programmers of any language requiring single quote comments can enter comments with ease.
 
