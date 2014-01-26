@@ -36,7 +36,7 @@ Toggles comments on the current selection. If there is a single uncommented line
 
 # Configuration
 
-ASPComment has two settings which modify its behavior. These settings can be modified by adding them to the file found at <code>Preferences > Package Settings > ASPComment > Settings - User</code> with the desired value.
+ASPComment has three settings which modify its behavior. These settings can be modified by adding them to the file found at <code>Preferences > Package Settings > ASPComment > Settings - User</code> with the desired value.
 
     allow_double_comments
   
@@ -45,3 +45,7 @@ When this setting is true and the <code>asp_comment_add_comment</code> action is
     comment_empty_lines
   
 When this setting is true, empty lines will receive a single quote when <code>asp_comment_add_comment</code> or <code>asp_comment_toggle_comment</code> are performed.
+
+    comment_after_indent
+
+    When this setting is true and the <code>asp_comment_add_comment</code> action is performed, the single quote will be added after any leading whitespace. This preserves the line's indentation, which can be useful for some Sublime features (such as code folding).

@@ -24,7 +24,12 @@ def addComment(line):
 	# THEN coment the line.
 	if ((not checkFirstChar(line, "'") or s.get("allow_double_comments")) and
 		(len(line.lstrip()) > 0 or s.get("comment_empty_lines"))):
-		line = "'" + line
+		if s.get("comment_after_indent"):
+			# preserve indentation by adding quote between leading whitespace
+			# and rest of line
+			line = line[:len(line)-len(line.lstrip())] + "'" + line.lstrip()
+		else:
+			line = "'" + line
 
 	return line
 
