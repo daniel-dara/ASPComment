@@ -48,4 +48,4 @@ When this setting is true, empty lines will receive a single quote when <code>as
 
     comment_after_indent
 
-    When this setting is true and the <code>asp_comment_add_comment</code> action is performed, the single quote will be added after any leading whitespace. This preserves the line's indentation, which can be useful for some Sublime features (such as code folding).
+When this setting is true and the <code>asp_comment_add_comment</code> action is performed, the single quote will be added after any leading whitespace. This preserves the line's indentation, which can be useful for some Sublime features (such as code folding).
